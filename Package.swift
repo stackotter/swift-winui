@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "swift-winui",
     products: [
-        .library(name: "WinUI", type: .dynamic, targets: ["WinUI"]),
+        .library(name: "WinUI", targets: ["WinUI"]),
     ],
     dependencies: [
         .package(url: "https://github.com/thebrowsercompany/swift-cwinrt", branch: "main"),
